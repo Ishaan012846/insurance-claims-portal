@@ -1,0 +1,36 @@
+# Maven / Java Build Output
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+jacoco.exec
+
+# Node / React Frontend Output
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
+frontend/package-lock.json
+
+# Local Uploads & Data
+uploads/*
+!uploads/.gitkeep
+*.log
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
